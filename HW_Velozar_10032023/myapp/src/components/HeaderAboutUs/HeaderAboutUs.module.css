@@ -1,0 +1,45 @@
+.about_us{
+    display: flex;
+        
+    max-width: 1440px;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+    padding: 20px;    
+}
+
+.about_us_text{
+    margin: 40px 51px 165px 10px; 
+    max-width: 602px;
+   
+    display: flex;
+    flex-direction: column;      
+}
+
+.about_us_text h1{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 113%;
+    letter-spacing: -0.035em;
+
+    color: #22356F
+}
+
+.about_us_text p{
+    padding-top: 46px;
+    width: 100%; 
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+
+    color: #22356F;
+}
+
+.about_us_din{
+    margin-right: -50px;
+    width: 543px;
+    height: 533px; 
+    background-image: url('./HeaderAboutUsImages/din.png'); 
+    background-size: cover;
+}

@@ -1,0 +1,29 @@
+.proposition_item_box{
+    width: 480px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+}
+
+.line{
+    margin: 0 70px;
+    width: 340px;
+    height: 96px;
+
+    border-bottom: 3px solid white;
+}
+
+.proposition_item_box p{
+    margin-left: 70px;
+    margin-top: 30px;
+    max-width: 264px;
+
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 105%;
+    letter-spacing: -0.006em;
+
+    color: #FFFFFF;
+}

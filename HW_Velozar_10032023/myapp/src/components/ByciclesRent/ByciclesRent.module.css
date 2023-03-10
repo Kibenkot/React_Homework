@@ -1,0 +1,44 @@
+.bycicles_rent_box{
+    display: flex;
+    justify-content: center;
+}
+
+.bycicles_rent_box_main{
+    max-width: 1440px;
+    min-height: 800px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bycicles_rent_img{
+    width: 637px;
+    height: 800px;  
+
+    background-image: url('./ByciclesRentImages/bycicles.png');
+    background-size: cover;
+}
+
+.bycicles_rent_text{
+    margin: 30px 70px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bycicles_rent_text p{
+    max-width: 660px;
+    
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+
+    color: #22356F;
+}
+.bycicles_rent_text p:not(:last-child){
+    margin-bottom: 50px;
+}

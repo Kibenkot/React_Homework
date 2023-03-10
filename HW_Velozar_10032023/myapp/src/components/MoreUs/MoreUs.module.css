@@ -1,0 +1,21 @@
+
+.more_us_box{
+    min-height: 604px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.more_us_box p{
+    margin: 20px 30px;
+    max-width: 740px;
+
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0.005em;
+
+    color: #22356F;
+}
